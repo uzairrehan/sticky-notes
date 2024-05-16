@@ -1,0 +1,52 @@
+body {
+  background-color: #00002c;
+  color: #008cff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+  padding: 20px;
+}
+.output p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inputabe button{
+    height: 45px;
+    margin-left: 10px;
+}
+p {
+  text-align: center;
+  margin: 0px;
+}
+.button {
+  position: relative;
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  background-color: #008cff;
+  transition: all 0.2s ease;
+  margin-left: 10px;
+}
+.input-style {
+  color: white;
+  border: 2px solid #008cff;
+  border-radius: 10px;
+  padding: 10px 25px;
+  background: transparent;
+  max-width: 180px;
+  line-height: 2em;
+  font-size: 23px;
+  height: 44px;
+}
+
+.input-style:active {
+  box-shadow: 2px 2px 15px #008cff inset;
+}
