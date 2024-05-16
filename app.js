@@ -1,4 +1,4 @@
-// CRUD // create read update delete
+// CRUD : create read update delete
 
 let input = document.querySelectorAll("input");
 let todoListDiv = document.querySelectorAll(".output");
@@ -6,6 +6,9 @@ let allTodos = [];
 
 function add() {
   let todoVal = input[0].value;
+  if (todoVal=== "") {
+    return;
+  }
   allTodos.push(todoVal);
   printing();
   input[0].value = "";
@@ -27,6 +30,7 @@ function printing() {
 
 function deleteTodo(i) {
   allTodos.splice(i, 1);
+
   printing();
 }
 
