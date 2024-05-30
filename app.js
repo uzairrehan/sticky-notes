@@ -3,7 +3,7 @@ let todoListDiv = document.querySelectorAll(".output");
 let allTodos = [];
 function add() {
   let todoVal = input[0].value;
-  if (todoVal=== "") {
+  if (todoVal === "") {
     return;
   }
   allTodos.push(todoVal);
@@ -32,6 +32,5 @@ function deleteTodo(i) {
   printing();
 }
 function editTodo(i) {
-  
   printing();
 }
