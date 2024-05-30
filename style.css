@@ -89,3 +89,8 @@ p {
 h2 {
   color: #fff;
 }
+@media only screen and (max-width: 600px) {
+  .output {
+    width: 230px;
+  }
+}
