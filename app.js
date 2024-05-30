@@ -14,13 +14,16 @@ function printing() {
   todoListDiv[0].innerHTML = "";
   for (let i = 0; i < allTodos.length; i++) {
     todoListDiv[0].innerHTML += `
-            <p id="todo-${i}">
-
+            <div id="todo-${i}">
+                <p>
                 ${allTodos[i]}
+                </p>
+                <span>(
+                ${i + 1} )
                 <button onclick="editTodo(${i}) "class="material-symbols-outlined button ">Edit</button>
                 <button onclick="deleteTodo(${i})"class="material-symbols-outlined button ">Delete</button>
-            </p>
-            <br>
+                </span>
+                </div>
         `;
   }
 }
