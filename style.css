@@ -39,15 +39,8 @@ div span {
   align-items: center;
   gap: 10px;
 }
-.inputabe button {
-  height: 44px;
-}
-.inputabe {
-  gap: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
+#add-new-todo, #edit-todo{
+  padding: 30px;
 }
 .button {
   position: relative;
@@ -69,6 +62,7 @@ div span {
   line-height: 2em;
   font-size: 23px;
   height: 44px;
+  margin: 10px;
 }
 .input-style:active {
   box-shadow: 2px 2px 15px #008cff inset;
@@ -93,4 +87,11 @@ h2 {
   .output {
     width: 230px;
   }
+}
+.error-msg {
+  color: red;
+  text-align: center;
+}
+.hide {
+  display: none;
 }
