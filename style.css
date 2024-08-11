@@ -1,4 +1,5 @@
-body {
+body,html {
+  width: 100%;
   background-color: #00002c;
   color: #008cff;
   display: flex;
@@ -83,15 +84,25 @@ p {
 h2 {
   color: #fff;
 }
-@media only screen and (max-width: 600px) {
-  .output {
-    width: 230px;
-  }
+
+.bottom{
+  color: #fff ;
+  background-color:#00002c ;
+  position: fixed;
+  bottom: -45px;
+  width: auto;
+  padding: 20px;
 }
 .error-msg {
   color: red;
   text-align: center;
+  padding-top: 20px;
 }
 .hide {
   display: none;
+}
+@media only screen and (max-width: 600px) {
+  .output {
+    width: 230px;
+  }
 }
